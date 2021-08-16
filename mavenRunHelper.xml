@@ -40,6 +40,9 @@
             <Goal>
               <option name="commandLine" value="clean install -pl other-alarm-stream -am -Dmaven.test.skip=true -Ddockerfile.skip=false" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean test -pl app-service -am" />
+            </Goal>
           </list>
         </option>
       </Goals>
