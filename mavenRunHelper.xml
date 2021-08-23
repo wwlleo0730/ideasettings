@@ -49,6 +49,9 @@
             <Goal>
               <option name="commandLine" value="clean compile -DskipTests" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean install -DskipTests --am" />
+            </Goal>
           </list>
         </option>
       </Goals>
