@@ -58,6 +58,9 @@
             <Goal>
               <option name="commandLine" value="clean install -Dmaven.test.skip=true" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean package -pl deploy -am -DskipAssembly=false -Ddockerfile.skip=true -Dmaven.test.skip=true" />
+            </Goal>
           </list>
         </option>
       </Goals>
