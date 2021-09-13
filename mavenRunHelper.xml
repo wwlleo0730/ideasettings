@@ -64,6 +64,9 @@
             <Goal>
               <option name="commandLine" value="clean package -DskipTests=true" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean deploy -Dmaven.test.skip=true" />
+            </Goal>
           </list>
         </option>
       </Goals>
