@@ -67,6 +67,12 @@
             <Goal>
               <option name="commandLine" value="clean deploy -Dmaven.test.skip=true" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="mvn release:perform -Darguments=&quot;-Dmaven.test.skip=true -Dmaven.javadoc.skip=true&quot;" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="release:perform -Darguments=&quot;-Dmaven.test.skip=true -Dmaven.javadoc.skip=true&quot;" />
+            </Goal>
           </list>
         </option>
       </Goals>
