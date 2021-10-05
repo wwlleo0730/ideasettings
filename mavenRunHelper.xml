@@ -73,6 +73,9 @@
             <Goal>
               <option name="commandLine" value="release:perform -Darguments=&quot;-Dmaven.test.skip=true -Dmaven.javadoc.skip=true&quot;" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean test -pl user-service -am" />
+            </Goal>
           </list>
         </option>
       </Goals>
