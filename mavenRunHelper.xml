@@ -82,6 +82,24 @@
             <Goal>
               <option name="commandLine" value="clean test -pl knowledge -am" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean package -pl alarm -am -Ddockerfile.skip=true" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="clean package -pl alarm-service -am -Ddockerfile.skip=true" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="clean package -Ddockerfile.skip=true" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="clean package -pl alarm -pl alarm-service -Ddockerfile.skip=true" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="clean package -pl alarm alarm-service -Ddockerfile.skip=true" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="clean package -pl alarm -amd -Ddockerfile.skip=true" />
+            </Goal>
           </list>
         </option>
       </Goals>
