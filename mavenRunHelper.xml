@@ -100,6 +100,9 @@
             <Goal>
               <option name="commandLine" value="clean package -pl alarm -amd -Ddockerfile.skip=true" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean package -Dmaven.test.skip=true -Ddockerfile.skip=false" />
+            </Goal>
           </list>
         </option>
       </Goals>
