@@ -103,6 +103,9 @@
             <Goal>
               <option name="commandLine" value="clean package -Dmaven.test.skip=true -Ddockerfile.skip=false" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean package -pl distribution -am -DskipAssembly=false -Ddockerfile.skip=true -Dmaven.test.skip=true" />
+            </Goal>
           </list>
         </option>
       </Goals>
