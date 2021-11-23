@@ -109,6 +109,9 @@
             <Goal>
               <option name="commandLine" value="clean package -Dmaven.test.skip=true" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean test -pl app-service -am" />
+            </Goal>
           </list>
         </option>
       </Goals>
