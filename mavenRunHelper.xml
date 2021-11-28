@@ -112,6 +112,9 @@
             <Goal>
               <option name="commandLine" value="clean test -pl app-service -am" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean compile -pl common -am" />
+            </Goal>
           </list>
         </option>
       </Goals>
