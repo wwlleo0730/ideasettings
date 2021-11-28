@@ -121,6 +121,24 @@
             <Goal>
               <option name="commandLine" value="clean compile -Dmaven.test.skip=true" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean install -pl common -am -Dmaven.test.skip=true -Ddockerfile.skip=true" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="clean install -pl common，common-api -am  -Dmaven.test.skip=true -Ddockerfile.skip=true" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="clean install -pl common -amd -Dmaven.test.skip=true -Ddockerfile.skip=true" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="clean install -pl common , common/common-api -am -Dmaven.test.skip=true -Ddockerfile.skip=true" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="clean install -pl common,common-api -Dmaven.test.skip=true -Ddockerfile.skip=true" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="clean package -pl common,common/common-api,common/common-sql,common/common-util,common/common-rabbitmq,common/common-redis,common/elasticsearch" />
+            </Goal>
           </list>
         </option>
       </Goals>
