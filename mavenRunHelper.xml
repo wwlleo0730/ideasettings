@@ -118,6 +118,9 @@
             <Goal>
               <option name="commandLine" value="clean compile -pl common -pl common-sql -am" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean compile -Dmaven.test.skip=true" />
+            </Goal>
           </list>
         </option>
       </Goals>
