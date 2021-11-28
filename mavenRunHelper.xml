@@ -115,6 +115,9 @@
             <Goal>
               <option name="commandLine" value="clean compile -pl common -am" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean compile -pl common -pl common-sql -am" />
+            </Goal>
           </list>
         </option>
       </Goals>
