@@ -139,6 +139,12 @@
             <Goal>
               <option name="commandLine" value="clean package -pl common,common/common-api,common/common-sql,common/common-util,common/common-rabbitmq,common/common-redis,common/elasticsearch" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean package -pl equipment-service -amd -Ddockerfile.skip=true -Dmaven.test.skip=true" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="clean package -pl equipment-service -am -Ddockerfile.skip=true -Dmaven.test.skip=true" />
+            </Goal>
           </list>
         </option>
       </Goals>
