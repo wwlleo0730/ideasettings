@@ -145,6 +145,9 @@
             <Goal>
               <option name="commandLine" value="clean package -pl equipment-service -am -Ddockerfile.skip=true -Dmaven.test.skip=true" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean compile -pl ec-tag -am" />
+            </Goal>
           </list>
         </option>
       </Goals>
