@@ -148,6 +148,9 @@
             <Goal>
               <option name="commandLine" value="clean compile -pl ec-tag -am" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean package -pl knowledge-service -am" />
+            </Goal>
           </list>
         </option>
       </Goals>
