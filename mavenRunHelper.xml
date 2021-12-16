@@ -154,6 +154,9 @@
             <Goal>
               <option name="commandLine" value="clean compile -pl alarm/alarm-service -am -Dmaven.test.skip=true" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean install -Dmaven.test.skip=true" />
+            </Goal>
           </list>
         </option>
       </Goals>
