@@ -160,6 +160,9 @@
             <Goal>
               <option name="commandLine" value="clean test -pl app-service -am" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean package -pl app-service -am -Dmaven.test.skip=true" />
+            </Goal>
           </list>
         </option>
       </Goals>
