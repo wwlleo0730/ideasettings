@@ -35,76 +35,7 @@
               <option name="commandLine" value="clean install" />
             </Goal>
             <Goal>
-              <option name="commandLine" value="clean install -Dmaven.test.skip=true -Ddockerfile.skip=false" />
-            </Goal>
-            <Goal>
-              <option name="commandLine" value="clean install -pl other-alarm-stream -am -Dmaven.test.skip=true -Ddockerfile.skip=false" />
-            </Goal>
-            <Goal>
-              <option name="commandLine" value="clean test -pl app-service -am" />
-            </Goal>
-            <Goal>
               <option name="commandLine" value="clean install -DskipTests" />
-            </Goal>
-            <Goal>
-              <option name="commandLine" value="clean compile -DskipTests" />
-            </Goal>
-            <Goal>
-              <option name="commandLine" value="clean install -DskipTests --am" />
-            </Goal>
-            <Goal>
-              <option name="commandLine" value="clean install -DskipTests=true" />
-            </Goal>
-            <Goal>
-              <option name="commandLine" value="clean install -Dmaven.test.skip=true" />
-            </Goal>
-            <Goal>
-              <option name="commandLine" value="clean package -pl deploy -am -DskipAssembly=false -Ddockerfile.skip=true -Dmaven.test.skip=true" />
-            </Goal>
-            <Goal>
-              <option name="commandLine" value="clean package -DskipTests=true" />
-            </Goal>
-            <Goal>
-              <option name="commandLine" value="clean deploy -Dmaven.test.skip=true" />
-            </Goal>
-            <Goal>
-              <option name="commandLine" value="mvn release:perform -Darguments=&quot;-Dmaven.test.skip=true -Dmaven.javadoc.skip=true&quot;" />
-            </Goal>
-            <Goal>
-              <option name="commandLine" value="release:perform -Darguments=&quot;-Dmaven.test.skip=true -Dmaven.javadoc.skip=true&quot;" />
-            </Goal>
-            <Goal>
-              <option name="commandLine" value="clean test -pl user-service -am" />
-            </Goal>
-            <Goal>
-              <option name="commandLine" value="clean package -pl data-connect-service -am -Dmaven.test.skip=true" />
-            </Goal>
-            <Goal>
-              <option name="commandLine" value="clean test -pl knowledge -am" />
-            </Goal>
-            <Goal>
-              <option name="commandLine" value="clean package -pl alarm -am -Ddockerfile.skip=true" />
-            </Goal>
-            <Goal>
-              <option name="commandLine" value="clean package -pl alarm-service -am -Ddockerfile.skip=true" />
-            </Goal>
-            <Goal>
-              <option name="commandLine" value="clean package -Ddockerfile.skip=true" />
-            </Goal>
-            <Goal>
-              <option name="commandLine" value="clean package -pl alarm -pl alarm-service -Ddockerfile.skip=true" />
-            </Goal>
-            <Goal>
-              <option name="commandLine" value="clean package -pl alarm alarm-service -Ddockerfile.skip=true" />
-            </Goal>
-            <Goal>
-              <option name="commandLine" value="clean package -pl alarm -amd -Ddockerfile.skip=true" />
-            </Goal>
-            <Goal>
-              <option name="commandLine" value="clean package -Dmaven.test.skip=true -Ddockerfile.skip=false" />
-            </Goal>
-            <Goal>
-              <option name="commandLine" value="clean package -pl distribution -am -DskipAssembly=false -Ddockerfile.skip=true -Dmaven.test.skip=true" />
             </Goal>
           </list>
         </option>
