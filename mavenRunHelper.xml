@@ -148,6 +148,9 @@
             <Goal>
               <option name="commandLine" value="clean install -pl common , common/modules-base -am -Dmaven.test.skip=true -Ddockerfile.skip=true" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean compile -pl ec-tag -am -Dmaven.test.skip=true" />
+            </Goal>
           </list>
         </option>
       </Goals>
