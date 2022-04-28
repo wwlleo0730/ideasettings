@@ -151,6 +151,9 @@
             <Goal>
               <option name="commandLine" value="clean compile -pl ec-tag -am -Dmaven.test.skip=true" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean compile -pl inspection-service -am -Dmaven.test.skip=true" />
+            </Goal>
           </list>
         </option>
       </Goals>
