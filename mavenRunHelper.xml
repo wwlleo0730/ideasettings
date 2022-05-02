@@ -148,6 +148,9 @@
             <Goal>
               <option name="commandLine" value="clean compile -pl valve -am" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean compile -pl spare-parts -am -Dmaven.test.skip=true" />
+            </Goal>
           </list>
         </option>
       </Goals>
