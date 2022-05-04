@@ -145,6 +145,9 @@
             <Goal>
               <option name="commandLine" value="clean package -pl spare-parts -am -Dmaven.test.skip=true" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean deploy -pl common,common/common-api,common/common-sql,common/common-rabbitmq,common/common-redis" />
+            </Goal>
           </list>
         </option>
       </Goals>
