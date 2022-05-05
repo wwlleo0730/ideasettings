@@ -146,10 +146,10 @@
               <option name="commandLine" value="clean package -pl spare-parts -am -Dmaven.test.skip=true" />
             </Goal>
             <Goal>
-              <option name="commandLine" value="clean deploy -pl common,common/common-api,common/common-sql,common/common-rabbitmq,common/common-redis" />
+              <option name="commandLine" value="clean compile -pl valve -am" />
             </Goal>
             <Goal>
-              <option name="commandLine" value="clean deploy -pl common,common/common-api,common/common-sql,common/common-rabbitmq,common/common-orientdb,common/common-redis" />
+              <option name="commandLine" value="clean compile -pl spare-parts -am -Dmaven.test.skip=true" />
             </Goal>
           </list>
         </option>
