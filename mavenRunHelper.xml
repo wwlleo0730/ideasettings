@@ -151,6 +151,9 @@
             <Goal>
               <option name="commandLine" value="clean compile -pl spare-parts -am -Dmaven.test.skip=true" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean test -pl ec-tag -am" />
+            </Goal>
           </list>
         </option>
       </Goals>
