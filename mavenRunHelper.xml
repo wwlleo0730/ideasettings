@@ -157,6 +157,9 @@
             <Goal>
               <option name="commandLine" value="clean compile -pl equipment-service -am -Dmaven.test.skip=true" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean test -pl alarm-service -am" />
+            </Goal>
           </list>
         </option>
       </Goals>
