@@ -160,6 +160,9 @@
             <Goal>
               <option name="commandLine" value="clean test -pl alarm-service -am" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean test -pl alarm-service" />
+            </Goal>
           </list>
         </option>
       </Goals>
