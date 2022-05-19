@@ -163,6 +163,9 @@
             <Goal>
               <option name="commandLine" value="clean test -pl alarm-service" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean compile -pl ec-tag -am" />
+            </Goal>
           </list>
         </option>
       </Goals>
