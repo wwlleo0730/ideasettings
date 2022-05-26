@@ -166,6 +166,9 @@
             <Goal>
               <option name="commandLine" value="clean compile -pl ec-tag -am" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean compile -pl ec-equipment -am" />
+            </Goal>
           </list>
         </option>
       </Goals>
