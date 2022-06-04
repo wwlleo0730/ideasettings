@@ -3,6 +3,7 @@
   <action id="CodeCompletion">
     <keyboard-shortcut first-keystroke="alt slash" />
   </action>
+  <action id="GotoClass" />
   <action id="HippieCompletion">
     <keyboard-shortcut first-keystroke="ctrl space" />
   </action>

@@ -151,6 +151,24 @@
             <Goal>
               <option name="commandLine" value="clean compile -pl spare-parts -am -Dmaven.test.skip=true" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean test -pl ec-tag -am" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="clean compile -pl equipment-service -am -Dmaven.test.skip=true" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="clean test -pl alarm-service -am" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="clean test -pl alarm-service" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="clean compile -pl ec-tag -am" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="clean compile -pl ec-equipment -am" />
+            </Goal>
           </list>
         </option>
       </Goals>
