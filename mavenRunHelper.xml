@@ -169,6 +169,9 @@
             <Goal>
               <option name="commandLine" value="clean compile -pl ec-equipment -am" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean package -pl common,common/common-api,common/common-sql,common/common-util,common/common-rabbitmq,common/common-redis,common/common-infrastructure" />
+            </Goal>
           </list>
         </option>
       </Goals>
