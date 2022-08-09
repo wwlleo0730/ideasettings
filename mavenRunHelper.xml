@@ -175,6 +175,9 @@
             <Goal>
               <option name="commandLine" value="clean compile -pl inspection-service -am" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean install -pl common,common/common-api,common/common-sql,common/common-rabbitmq,common/common-redis,common/common-infrastructure" />
+            </Goal>
           </list>
         </option>
       </Goals>
