@@ -178,6 +178,9 @@
             <Goal>
               <option name="commandLine" value="clean install -pl common,common/common-api,common/common-sql,common/common-rabbitmq,common/common-redis,common/common-infrastructure" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean test -pl ermo-service -am" />
+            </Goal>
           </list>
         </option>
       </Goals>
