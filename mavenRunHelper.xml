@@ -181,6 +181,9 @@
             <Goal>
               <option name="commandLine" value="clean test -pl ermo-service -am" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean install -pl titan-boot-mybatis -am -Dmaven.test.skip=true" />
+            </Goal>
           </list>
         </option>
       </Goals>
