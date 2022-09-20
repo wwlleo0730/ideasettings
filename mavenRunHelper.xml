@@ -184,6 +184,21 @@
             <Goal>
               <option name="commandLine" value="clean install -pl titan-boot-mybatis -am -Dmaven.test.skip=true" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean install -pl common,common/common-api,common/common-sql,common/common-util,common/common-rabbitmq,common/common-redis,common/elasticsearch -am -Dmaven.test.skip=true -Ddockerfile.skip=true" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="clean install -pl common,common/common-api -am -Dmaven.test.skip=true -Ddockerfile.skip=true" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="clean install -pl common,common/common-api,common/common-sql,common/common-util,common/common-rabbitmq,common/common-redis,common/elasticsearch -am -Dmaven.test.skip=true -Ddockerfile.skip=true" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="clean install -pl common,common/common-api,common/common-sql -am -Dmaven.test.skip=true -Ddockerfile.skip=true" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="clean install -pl common,common/common-api,common/common-sql,common/common-infrastructure,common/common-orientdb -am -Dmaven.test.skip=true -Ddockerfile.skip=true" />
+            </Goal>
           </list>
         </option>
       </Goals>
