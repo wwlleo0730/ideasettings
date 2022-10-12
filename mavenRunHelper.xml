@@ -199,6 +199,12 @@
             <Goal>
               <option name="commandLine" value="clean install -pl common,common/common-api,common/common-sql,common/common-infrastructure,common/common-orientdb -am -Dmaven.test.skip=true -Ddockerfile.skip=true" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean install -pl common,common/common-api,common/common-sql,common/common-infrastructure -am -Dmaven.test.skip=true -Ddockerfile.skip=true" />
+            </Goal>
+            <Goal>
+              <option name="commandLine" value="clean install -pl common,common/common-api,common/common-sql,common/common-infrastructure,common/common-rabbitmq -am -Dmaven.test.skip=true -Ddockerfile.skip=true" />
+            </Goal>
           </list>
         </option>
       </Goals>
