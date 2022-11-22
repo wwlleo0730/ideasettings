@@ -4,7 +4,9 @@
       <mapping pattern="AppServiceTestApplication" type="AUTO_DETECTED" />
       <mapping pattern="Jenkinsfile-develop" type="AUTO_DETECTED" />
       <mapping pattern="Jenkinsfile-buildInApp" type="AUTO_DETECTED" />
+      <mapping pattern="Jenkinsfile-workform" type="AUTO_DETECTED" />
       <mapping pattern="ORIENTDBMIGRATE" type="AUTO_DETECTED" />
+      <mapping pattern="Jenkinsfile-workform-develop" type="AUTO_DETECTED" />
       <mapping pattern="VERSION1" type="AUTO_DETECTED" />
       <mapping pattern="Jenkinsfile-increment" type="AUTO_DETECTED" />
       <mapping pattern="FileMocker" type="AUTO_DETECTED" />
