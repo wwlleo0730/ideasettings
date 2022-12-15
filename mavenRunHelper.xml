@@ -205,6 +205,9 @@
             <Goal>
               <option name="commandLine" value="clean install -pl common,common/common-api,common/common-sql,common/common-infrastructure,common/common-rabbitmq -am -Dmaven.test.skip=true -Ddockerfile.skip=true" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean package -DskipAssembly=false -Ddockerfile.skip=true -Dmaven.test.skip=true" />
+            </Goal>
           </list>
         </option>
       </Goals>
