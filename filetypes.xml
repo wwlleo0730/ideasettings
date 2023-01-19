@@ -11,6 +11,7 @@
       <mapping pattern="Jenkinsfile-workform-develop" type="AUTO_DETECTED" />
       <mapping pattern="VERSION1" type="AUTO_DETECTED" />
       <mapping pattern="Jenkinsfile-increment" type="AUTO_DETECTED" />
+      <mapping pattern="Jenkinsfile-deploy83" type="AUTO_DETECTED" />
       <mapping pattern="FileMocker" type="AUTO_DETECTED" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
