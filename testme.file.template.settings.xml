@@ -2,6 +2,7 @@
   <component name="TestMeFileTemplateSettings">
     <tests_templates>
       <template name="JUnit4 &amp; Mockito.java" reformat="false" live-template-enabled="false" />
+      <template name="JUnit5 &amp; Mockito.java" reformat="false" live-template-enabled="false" />
     </tests_templates>
   </component>
 </application>
