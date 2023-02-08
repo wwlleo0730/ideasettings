@@ -1,18 +1,18 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
-      <mapping pattern="AppServiceTestApplication" type="AUTO_DETECTED" />
-      <mapping pattern="Jenkinsfile-develop" type="AUTO_DETECTED" />
       <mapping pattern="Jenkinsfile-buildInApp" type="AUTO_DETECTED" />
-      <mapping pattern="Jenkinsfile-workform" type="AUTO_DETECTED" />
       <mapping pattern="Jenkinsfile-backend" type="AUTO_DETECTED" />
       <mapping pattern="ORIENTDBMIGRATE" type="AUTO_DETECTED" />
       <mapping pattern="Jenkinsfile-frontend" type="AUTO_DETECTED" />
+      <mapping pattern="FileMocker" type="AUTO_DETECTED" />
+      <mapping pattern="Jenkinsfile-develop" type="AUTO_DETECTED" />
+      <mapping pattern="AppServiceTestApplication" type="AUTO_DETECTED" />
+      <mapping pattern="Jenkinsfile-workform" type="AUTO_DETECTED" />
       <mapping pattern="Jenkinsfile-workform-develop" type="AUTO_DETECTED" />
       <mapping pattern="VERSION1" type="AUTO_DETECTED" />
       <mapping pattern="Jenkinsfile-increment" type="AUTO_DETECTED" />
       <mapping pattern="Jenkinsfile-deploy83" type="AUTO_DETECTED" />
-      <mapping pattern="FileMocker" type="AUTO_DETECTED" />
       <mapping ext="space.kts" type="Kotlin" />
       <mapping ext="gradle.kts" type="Kotlin" />
       <mapping ext="main.kts" type="Kotlin" />
