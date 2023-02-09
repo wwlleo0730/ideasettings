@@ -208,6 +208,9 @@
             <Goal>
               <option name="commandLine" value="clean package -DskipAssembly=false -Ddockerfile.skip=true -Dmaven.test.skip=true" />
             </Goal>
+            <Goal>
+              <option name="commandLine" value="clean install -pl titan-boot-mybatis -am -Dmaven.test.skip=true" />
+            </Goal>
           </list>
         </option>
       </Goals>
